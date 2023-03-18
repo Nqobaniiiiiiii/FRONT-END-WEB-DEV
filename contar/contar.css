@@ -1,0 +1,226 @@
+
+#frame{
+    margin-left:0 ;
+  
+
+}
+@media screen and (min-width :800px ) {
+  #frame{
+    margin-left:10%;
+    
+  }}
+h1{
+  background-color: red;
+  width: 60%;
+  border: 0;
+  margin: 0;
+  padding: 0%;
+  float: left;
+  position: fixed;
+}
+#content{
+  margin-top: 150px;
+  position: absolute;
+}
+@media screen and (max-width :700px ) {
+  h1{
+    width: 100%;
+    
+  }}
+
+  @media screen and (max-width :700px ) {
+    #navbar{
+      width: 100%;
+    background-color: blue;
+    min-height: 6%;
+    bottom:0;
+    overflow: hidden;
+    position: fixed;
+    float: bottom;
+
+    }
+    
+  }
+  #home-btn{
+    color:white;
+    background:none;
+    font-size: 23px;
+    position: absolute;
+    top :0;
+    width : 37%;
+    border:none ;
+    height: 89% ;
+    flex-direction: row;
+  }b  
+  #home-btn  :hover {
+    color: black;
+
+  }
+  #profile-btn{
+    color:white;
+    background:none;
+    font-size: 23px;
+    position: absolute;
+    top :0;
+    width : 147%;
+    border:none ;
+    height: 90% ;
+    flex-direction: row;
+  }
+  #profile-btn  :hover {
+    color: black;
+  }
+  #search-btn{
+    color:aliceblue;
+    background:none;
+    font-size: 23px;
+    position: absolute;
+    top :0;
+    width : 90%;
+    border:none ;
+    height: 90% ;
+    flex-direction: row;
+  }
+  #search-btn  :hover {
+    color: black;
+  }
+  #profile-div{
+    position: absolute;
+    right: 0;
+    float: right;
+    background-color: gold;
+    outline: black;
+    width: 40%;
+    height: 100%;
+    margin-right: 15px;
+    
+  }
+  @media screen and (max-width :700px ) {
+    #profile-div{
+      display: none;
+
+    }}
+
+          
+ 
+    
+  
+
+
+
+  #imageUpload{
+    display: none;
+  }
+  #profile-container{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #profile-pic{
+    border-radius: 49%;
+  }
+
+  #username{
+    color: black; 
+    font-size: 1.7em;
+    text-align: center;
+    box-shadow: 0;
+    cursor: pointer;
+    outline: 0px;
+    background-color: gold;
+    border: 0px;
+    height: 0.6vh;
+    margin-bottom: 2em;
+    padding-top: 0.4em;     
+
+}
+ #btn-1{
+   font-size: 1.3em;
+   border-radius: 10px ;
+   width: 90%;
+   max-height: 70%;
+   padding: 0.4em;
+   outline: 0px;
+   margin-bottom: 0.4em;
+   text-align: left;
+ }
+ #btn-1 i{
+  width:35% ;
+  background: none;
+  padding: 0;
+ }
+ 
+ #btn-2{
+  font-size: 1.3em;
+  border-radius: 10px ;
+  width: 90%;
+  max-height: 70%;
+  text-align: left;
+  padding: 0.4em;
+  outline: 0px;
+  margin-bottom: 0.4em;
+}
+#btn-2 i{
+ top:0;
+ background: none;
+ width: 35%;
+ padding: 0%;
+
+}
+#btn-3{
+  font-size: 1.3em;
+  border-radius: 10px ;
+  width: 90%;
+  max-height: 70%;
+  text-align: left;
+  padding: 0.4em;
+  outline: 0px;
+  margin-bottom: 0.4em;
+}
+#btn-3 i{
+ 
+ background: none;
+ border: none;
+ width: 35%;
+ padding: 0%;
+
+}
+#btn-4{
+  font-size: 1.3em;
+  border-radius: 10px ;
+  width: 90%;
+  max-height: 70%;
+  text-align: left;
+  padding: 0.4em;
+  outline: 0px;
+  margin-bottom: 0.4em;
+}
+#btn-4 i{
+ 
+ background: none;
+ border: none;
+ width: 35%;
+ padding: 0%;
+
+}
+#btn-5{
+  font-size: 1.3em;
+  border-radius: 10px ;
+  width: 90%;
+  max-height: 70%;
+  text-align: left;
+  padding: 0.4em;
+  outline: 0px;
+  margin-bottom: 0.4em;
+}
+#btn-5 i{
+ 
+ background: none;
+ border: none;
+ width: 35%;
+ padding: 0%;
+
+}

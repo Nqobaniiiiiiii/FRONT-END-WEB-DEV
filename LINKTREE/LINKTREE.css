@@ -1,0 +1,178 @@
+html{
+    background-color: rgba(23, 238, 50, 0.836);
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+
+}
+#profileImage {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 50%; /* for making the icon circular*/
+
+}
+#imageUpload{
+    display: none;
+}
+#profile-container{
+    width : 190px;
+    height: 190px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    padding-top: 23px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0%;
+}
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+
+}
+/* THE LINES ABOVE + js ALLOW US TO TAP INTO  THE ION AND THE pic pops up*/
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+}
+.username{
+   color: black; 
+   font-size: 1.7em;
+   text-align: center;
+   box-shadow: 0px;
+   cursor: pointer;
+   outline: 0px;
+   background-color:rgba(23, 238, 79, 0);
+   border: 0px;
+   width: 45%;
+   height: 0.2vh;
+   margin: auto;
+   padding-top: 0.4em;
+   padding-bottom: 1.4em;
+   flex-direction: column;
+
+}
+
+.link1{
+    color: black;
+   width: 70%;
+   height: 0.4vh ;
+   display: block;
+   font-size: 1.3em;
+   text-align: center;
+   padding: 1.3em;
+   margin:15px;
+   border-radius: 50px;
+   outline: 0px;
+   flex-direction: column;
+}
+
+@media(max-width:480px){
+    link1{
+        width:70%;
+        height:0.4vh;
+        font-size:1.3em;
+        text-align: center;
+    }
+}
+.button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36%;
+    height: 81%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 35px;
+    flex-direction: row;
+}
+button i{
+    color: black;
+}
+
+
+.link2{
+    color: black;
+    width: 70%;
+    height: 0.4vh ;
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1.3em;
+    margin:15px;
+    border-radius: 50px;
+    outline: 0px;
+ }
+ @media(max-width:480px){
+     link2{
+         width:70%;
+         height:0.4vh;
+         font-size:1.3em;
+         text-align: center;
+     }
+    }
+
+    .button2{
+     
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36%;
+    height: 105%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 35px;
+    flex-direction: row;
+}
+  button2 i{
+    color: black;
+}
+
+    
+    .link3{
+        color: black;
+        width: 70%;
+        height: 0.4vh ;
+        display: block;
+        font-size: 1.3em;
+        text-align: center;
+        padding: 1.3em;
+        margin:15px;
+        border-radius: 50px;
+        outline: 0px;
+     }
+     
+     @media(max-width:480px){
+         link3{
+             width:70%;
+             height:0.4vh;
+             font-size:1.3em;
+             text-align: center;
+         }
+        }
+
+        .button3{
+            position: absolute;
+        top: 0;
+        left: 0;
+        width: 36%;
+        height: 129%;
+        border-radius: 50%;
+        border: none;
+        background: none;
+        font-size: 35px;
+        flex-direction: row;
+    }
+      button3 i{
+        color: black;
+    }

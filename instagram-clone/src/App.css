@@ -1,0 +1,28 @@
+*{
+  margin :0;
+}
+.app__headerImage{
+  object-fit: contain;
+  width: 15vh;
+  background-color: white;
+  padding: 18px;
+  object-fit: contain;
+  border-bottom:1px solid lightgray ;
+}
+.app{
+  background-color:#fafafa ;
+  height: 100vh;
+}
+.post__text{
+  font-weight: normal;
+  padding: 20px;
+}
+.post__header{
+  display:flex;
+  align-items: center;
+  padding: 20px;
+}
+.post__avator{
+  margin-right: 10px;
+
+}

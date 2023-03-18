@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width= device-width,
+        initial-scale =1.0"/>
+        <script src="https://kit.fontawesome.com/65db1f8b06.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="LINKTREE.css"/>
+
+        <title> LINKTREE</title>
+    </head>
+    <body>
+        <body>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+            <div id="profile-container">
+            <img id="profileImage" alt= ""   src="pics/profile.png"/>
+            </div>
+            <input id="imageUpload" type="file" 
+                   name="profile_photo" placeholder="Photo" required="" capture
+                   >
+
+      <div id="container" >
+            <input class="username" type="text" placeholder="Username" required ="" capture>
+
+
+            <button class="button"><i class="fa-brands fa-instagram" aria-hidden="true"></i></button>
+            <input class ="link1" placeholder="Button Title"   type="url" required="" capture>
+           
+            <button class="button2"><i class="fa-brands fa-twitter" aria-hidden="true"></i></button>
+            <input class ="link2"   placeholder="Button Title"   type="url" >
+
+           
+            <button class="button3"><i class="fa-brands fa-youtube" aria-hidden="true"></i></button>
+           <input class ="link3"   placeholder="Button Title"   type="url" >
+          
+        </div>
+
+
+
+
+           </body> 
+      
+              <script type="text/javascript">
+                $("#profileImage").click(function(e) {
+                    $("#imageUpload").click();
+                });
+                
+                function fasterPreview( uploader ) {
+                    if ( uploader.files && uploader.files[0] ){
+                          $('#profileImage').attr('src', 
+                             window.URL.createObjectURL(uploader.files[0]) );
+                    }
+                }
+                
+                $("#imageUpload").change(function(){
+                    fasterPreview( this );
+                });
+              </script>       
+
+    </body>  
+
+</html>

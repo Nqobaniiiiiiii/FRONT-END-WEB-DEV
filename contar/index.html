@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width= device-width,
+        initial-scale =1.0"/>
+
+        <title>CONTAR</title>
+
+     <link rel="stylesheet" href="contar.css"/>
+     <script src="https://kit.fontawesome.com/65db1f8b06.js" crossorigin="anonymous"></script> 
+     
+</head>
+<body >
+
+    <div id="frame ">
+    
+        <h1>User Posts</h1>
+      <!----  {% for post in posts %}
+            <p>{{ post }}</p>
+        {% endfor %}--->
+
+    <nav id="navbar">
+        
+        
+                    <button id="home-btn"><i class="fas fa-home"></i></button>
+                    <button id="profile-btn"><i class="fas fa-user"></i></button>
+                    <button id="search-btn"> <i class="fa-solid fa-magnifying-glass"></i></i></button>
+           
+         </ul>
+    </nav>
+
+    <div id="profile-div">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+      <div id="profile-container">
+      <img id="profile-pic" alt= ""   src="img/profile.png"/>
+      
+      <input id="imageUpload" type="file" 
+             name="profile_photo" placeholder="Photo" required="" capture
+             >
+        <h2 id="username" >username</h2>
+
+        <button id="btn-1"><i class="fas fa-user" aria-hidden="true"></i>PROFILE</button>
+
+        <button id="btn-2">
+            <i class="fas fa-home" aria-hidden="true"></i> HOME</button>
+
+        <button id="btn-3">
+            <i class="fas fa-search" aria-hidden="true"></i> SEARCH</button>
+
+        <button id="btn-4">
+            <i class="fas fa-search" aria-hidden="true"></i> SEARCH</button>
+        
+        <button id="btn-5">
+            <i class="fas fa-search" aria-hidden="true"></i> SEARCH</button> 
+        </div>
+
+
+
+
+
+
+
+           
+
+
+     
+
+    </div>
+  </div>
+</body>
+
+<script >
+   $("#profile-pic").click(function(e) {
+       $("#imageUpload").click();
+   });
+   
+   function fasterPreview( uploader ) {
+       if ( uploader.files && uploader.files[0] ){
+             $('#profileImage').attr('src', 
+                window.URL.createObjectURL(uploader.files[0]) );
+       }
+   }
+   
+   $("#imageUpload").change(function(){
+       fasterPreview( this );
+   });
+ </script>   
+</html>
+     
