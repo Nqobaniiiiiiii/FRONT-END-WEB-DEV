@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width= device-width,
+        initial-scale =1.0"/>
+        <link rel="stylesheet" href="styles.css"/>
+
+
+        <title> GMA-2 </title>
+    </head>
+    <body>
+        <body>
+          <h1>GUESS MY AGE</h1>
+
+            <div id="picture" > 
+              <img src ="GMAPICS/DICAPRIO.jpeg" alt="" id="Image"/> 
+            </div>
+      
+            <form id="BOX" >
+             
+                <input type="number" placeholder="_ _" id = "Input" >
+                <button  type ="submit" id="SUBMIT" 
+                 >ANSWER</button>
+      
+            </form>
+          </body> 
+      
+              <script>
+                const form = document.getElementById("BOX")
+                form.addEventListener("submit", function(event){event.preventDefault();
+                
+                 const answer = document.getElementById("Input").value;
+                
+                 if (answer === "47"){
+                  window.location.href ="GMA4.html";
+      
+                 }  else{
+                   alert("WRONG ANSWER");
+                 }
+              
+              });
+                
+              </script>
+      
+      
+      </html>
+      
+              
+              
+
+    </body>  
+
+</html>

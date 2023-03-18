@@ -1,0 +1,85 @@
+html{
+    
+    background: black;
+}
+
+
+
+/*.border{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    border: 5px  dashed dimgray;
+}*/
+h1{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif ;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+    margin: auto;
+    font-size: 60px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+#Image{
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 70px;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    border-radius: 30px;
+    width : 360px;
+    height: 390px;
+}
+/*  btn-div used flexbox to center the button */
+#Input{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 23px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 40px;
+    min-width:10px ;
+    border-radius: 40px;
+    border:2px solid aliceblue ;
+    outline: 0px;
+    margin-bottom: 39px;
+    background-color: aliceblue;
+}
+#BOX{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    min-width: 590 px;
+    align-items: center;
+}
+#SUBMIT{
+    color: rgb(218, 218, 233) ;
+    background-image: linear-gradient(to right ,rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 3) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    padding: 10px ;
+    border-radius: 50px;
+    line-height: 30px;
+    font-size: 21px ;
+    font-weight: medium;
+    text-decoration-color: azure;
+    font-family:'Times New Roman', Times, serif ;
+    
+    
+}
+#SUBMIT:hover{
+    background: black;
+}
+

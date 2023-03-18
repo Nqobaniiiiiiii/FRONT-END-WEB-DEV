@@ -1,0 +1,54 @@
+*{
+    margin: 0vh;
+    padding: 0;
+    box-sizing: border-box;
+    white-space:unset;
+}
+
+
+div{
+
+    font-size: 60px;
+    min-height: 100vh;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.main-page{
+    background:linear-gradient(#CC9966 , #FFFFFF); 
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.alcohol-image{
+    background: url("./WDYDPICS/alcohol.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.coffee-image{
+    background: url("./WDYDPICS/coffee.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.juice-image{
+    background: url("./WDYDPICS/juice.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.water-image{
+    background: url("./WDYDPICS/water.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
